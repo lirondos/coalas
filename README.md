@@ -1,2 +1,2 @@
-# CoAlas 🐨
-COrpus of AngLicisms in the SpAnish PresS (CoAlas)
+# COALAS 🐨
+COrpus of AngLicisms in the SpAnish PresS (COALAS)
