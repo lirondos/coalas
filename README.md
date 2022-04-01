@@ -18,13 +18,14 @@ The annotation considers two labels:
 
 The model uses BIO encoding to account for multitoken borrowings.
 
-## More info
-More information about the dataset, model experimentation and error analysis can be found in the paper: *[Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling](https://arxiv.org/abs/2203.16169)*.
-
 ## Models
 There are two publicly-available models trained on this dataset for the task of automatic detection of anglicisms. Both are available in the HuggingFace model hub:
 - [Flair BiLSTM model](https://huggingface.co/lirondos/anglicisms-spanish-flair-cs), fed with [codeswitch embeddings](https://huggingface.co/sagorsarker/codeswitch-spaeng-lid-lince) and subword embeddings, based on [Flair library](https://github.com/flairNLP/flair) (F1=85.76)
 - [multilingual BERT model](https://huggingface.co/bert-base-multilingual-cased), fine-tuned for the task of detecting anglicisms, based on [Transformers library](https://github.com/huggingface/transformers/) (F1=83.55)
+
+
+## More info
+More information about the dataset, model experimentation and error analysis can be found in the paper: *[Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling](https://arxiv.org/abs/2203.16169)*.
 
 ## Citation
 If you use this model, please cite the following reference:
