@@ -21,7 +21,7 @@ The model uses BIO encoding to account for multitoken borrowings.
 ## Models
 There are two publicly-available models trained on this dataset for the task of automatic detection of anglicisms. Both are available in the HuggingFace model hub:
 - [Flair BiLSTM model](https://huggingface.co/lirondos/anglicisms-spanish-flair-cs), fed with [codeswitch embeddings](https://huggingface.co/sagorsarker/codeswitch-spaeng-lid-lince) and subword embeddings, based on [Flair library](https://github.com/flairNLP/flair) (F1=85.76)
-- [multilingual BERT model fine-tuned for the task of detecting anglicisms](https://huggingface.co/lirondos/anglicisms-spanish-mbert), based on [Transformers library](https://github.com/huggingface/transformers/) (F1=83.55)
+- [multilingual BERT-based model fine-tuned for the task of detecting anglicisms](https://huggingface.co/lirondos/anglicisms-spanish-mbert), based on [Transformers library](https://github.com/huggingface/transformers/) (F1=83.55)
 
 
 ## More info
