@@ -25,20 +25,22 @@ There are two publicly-available models trained on this dataset for the task of 
 
 
 ## More info
-More information about the dataset, model experimentation and error analysis can be found in the paper: *[Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling](https://arxiv.org/abs/2203.16169)*.
+More information about the dataset, model experimentation and error analysis can be found in the paper: *[Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling](https://aclanthology.org/2022.acl-long.268/)*.
 
 ## Citation
-If you use this model, please cite the following reference:
+If you use this dataset or models, please cite the following reference:
 ```
- @misc{https://doi.org/10.48550/arxiv.2203.16169,
-  doi = {10.48550/ARXIV.2203.16169},
-  url = {https://arxiv.org/abs/2203.16169},
-  author = {Álvarez-Mellado, Elena and Lignos, Constantine},
-  title = {Detecting Unassimilated Borrowings in Spanish: An Annotated Corpus and Approaches to Modeling},
-  publisher = {arXiv},
-  year = {2022}
-  archivePrefix = {arXiv},
-  eprint = {2203.16169},
-  primaryClass = {cs.CL},
-} 
+@inproceedings{alvarez-mellado-lignos-2022-detecting,
+    title = "Detecting Unassimilated Borrowings in {S}panish: {A}n Annotated Corpus and Approaches to Modeling",
+    author = "{\'A}lvarez-Mellado, Elena  and
+      Lignos, Constantine",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.268",
+    pages = "3868--3888",
+    abstract = "This work presents a new resource for borrowing identification and analyzes the performance and errors of several models on this task. We introduce a new annotated corpus of Spanish newswire rich in unassimilated lexical borrowings{---}words from one language that are introduced into another without orthographic adaptation{---}and use it to evaluate how several sequence labeling models (CRF, BiLSTM-CRF, and Transformer-based models) perform. The corpus contains 370,000 tokens and is larger, more borrowing-dense, OOV-rich, and topic-varied than previous corpora available for this task. Our results show that a BiLSTM-CRF model fed with subword embeddings along with either Transformer-based embeddings pretrained on codeswitched data or a combination of contextualized word embeddings outperforms results obtained by a multilingual BERT-based model.",
+}
 ```
